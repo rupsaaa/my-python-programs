@@ -1,0 +1,9 @@
+'''input:Rohan,1995
+output:RN24(1+9+9+5)'''
+name="rohan"
+year=1995
+sum=0
+while(year!=0):
+    sum=sum+(year%10)
+    year=year//10
+print(name[0].upper()+name[-1].upper()+str(sum))

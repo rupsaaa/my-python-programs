@@ -1,0 +1,3 @@
+language-tool-python
+textblob
+spellchecker
